@@ -31,6 +31,10 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    #我创建的app
+   'dp_intro',
+   
+    #自带的app
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
